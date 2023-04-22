@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from '../../atoms/Card'
 import Button from '../../atoms/Button'
 import Divide from '../../atoms/Divide'
