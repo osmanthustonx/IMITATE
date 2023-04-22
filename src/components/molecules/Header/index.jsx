@@ -17,6 +17,7 @@ function Header() {
       <h1 className="text-center text-3xl text-white">IMITATE</h1>
       <div className='w-[200px]'>
         <Button onClick={connectAction}>
+          {/* TODO 重整會斷連 */}
           {isConnected ? `Connected ${address}` : "Connect Wallet"}
         </Button>
       </div>
