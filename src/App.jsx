@@ -4,7 +4,7 @@ import StrategyTable from './components/organisms/StrategyTable'
 
 function App() {
   return (
-    <div className='bg-[#010613] h-screen'>
+    <div className='bg-black-2 h-screen'>
       <div className="flex justify-center items-center bg-[url('./assets/bg.svg')] h-screen">
         <Header />
         <div className='flex flex-col items-center space-y-10'>

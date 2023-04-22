@@ -13,7 +13,7 @@ function Header() {
     alert(error.message)
   }
   return (
-    <header className="fixed top-0 w-full flex justify-between bg-[#1e1e2f] px-10 py-4">
+    <header className="fixed top-0 w-full flex justify-between bg-black-1 px-10 py-4">
       <h1 className="text-center text-3xl text-white">IMITATE</h1>
       <div className='w-[200px]'>
         <Button onClick={connectAction}>

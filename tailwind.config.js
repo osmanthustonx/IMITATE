@@ -9,7 +9,10 @@ export default {
       },
       blue: "rgb(100, 125, 238)",
       white: '#fff',
-      black: '#000'
+      black: {
+        1: "#1e1e2f",
+        2: "#010613"
+      }
     },
     extend: {
       backgroundImage: {
